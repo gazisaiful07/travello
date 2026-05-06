@@ -1,7 +1,18 @@
-import React from 'react'
+import BookingForm from '../components/BookingForm';
 
-export default function Booking() {
+const Booking = () => {
   return (
-    <div>Booking</div>
-  )
-}
+    <section className="py-16 px-4 lg:px-16 bg-base-200">
+      <div className="text-center mb-10">
+        <h1 className="text-4xl font-bold">Book Your Trip</h1>
+        <p className="text-gray-500 mt-3">
+          Fill up the form and our travel expert will contact you soon.
+        </p>
+      </div>
+
+      <BookingForm />
+    </section>
+  );
+};
+
+export default Booking;

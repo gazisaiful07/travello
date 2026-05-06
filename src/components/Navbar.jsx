@@ -13,7 +13,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-white shadow-md px-4 lg:px-16 sticky top-0 z-50">
+    <div className="navbar bg-black/20 backdrop-blur-lg border-b border-white/10 px-4 lg:px-16 sticky top-0 z-50">
       <div className="navbar-start">
         <NavLink to="/" className="text-2xl font-bold text-primary flex items-center gap-2">
           <FontAwesomeIcon icon={faPlaneDeparture} />
