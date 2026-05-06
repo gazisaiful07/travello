@@ -1,16 +1,93 @@
-# React + Vite
+# 🌍 Travello - Travel Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Travello is a modern and responsive travel agency website built with React.js, Vite, Tailwind CSS, DaisyUI, React Router, and Font Awesome.
 
-Currently, two official plugins are available:
+Users can explore beautiful travel destinations and book trips easily through the booking form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Modern responsive UI
+- Beautiful blur navbar
+- Travel destination cards
+- Booking form
+- React Router navigation
+- Mobile friendly design
+- Font Awesome icons
+- Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Router DOM
+- Font Awesome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+src/
+├── assets/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── DestinationCard.jsx
+│   └── BookingForm.jsx
+├── data/
+│   └── destinations.js
+├── pages/
+│   ├── Home.jsx
+│   ├── Destinations.jsx
+│   ├── Booking.jsx
+│   └── Contact.jsx
+├── routes/
+│   └── router.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## ⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/gazisaiful07/travello/
+
+Go to the project folder:
+
+cd travello
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+## 🎨 Tailwind CSS Setup
+
+Install Tailwind CSS:
+
+npm install -D tailwindcss@3 postcss autoprefixer
+
+Initialize Tailwind:
+
+npx tailwindcss init -p
+
+
+## 📱 Responsive Design
+
+Travello is fully responsive for mobile, tablet, laptop, and desktop devices.
+
+## ✨ Future Improvements
+
+- Authentication system
+- Payment gateway
+- Real API integration
+- Admin dashboard
+- Dark mode
+- User reviews
+
+## 👨‍💻 Developer
+
+Developed by Gazi Saiful
